@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1373E2971D0A7FA500804B2B /* PlaceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348E41D07400500A45223 /* PlaceRouter.swift */; };
+		1373E2991D0A88F800804B2B /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1373E2981D0A88F800804B2B /* PaymentViewController.swift */; };
+		1373E29B1D0A8C0B00804B2B /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1373E29A1D0A8C0B00804B2B /* PaymentRouter.swift */; };
+		1373E2A51D0AA1A900804B2B /* JitenshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1373E2A41D0AA1A900804B2B /* JitenshaTests.swift */; };
+		1373E2B31D0AA26E00804B2B /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F377061D09CADA0018126D /* ErrorManager.swift */; };
+		1373E2BD1D0AA82300804B2B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1373E2BB1D0AA82300804B2B /* Session.swift */; };
+		1373E2BF1D0AA82300804B2B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1373E2BC1D0AA82300804B2B /* Place.swift */; };
+		137B2D5E1D0AAA7F0086725D /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348E11D072A0D00A45223 /* BaseRouter.swift */; };
+		13A348951D0719D500A45223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348941D0719D500A45223 /* AppDelegate.swift */; };
+		13A348CF1D07229A00A45223 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348CE1D07229A00A45223 /* MapViewController.swift */; };
+		13A348D21D0722EC00A45223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A348D01D0722EC00A45223 /* Assets.xcassets */; };
+		13A348D81D07231500A45223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A348D41D07231500A45223 /* LaunchScreen.storyboard */; };
+		13A348D91D07231500A45223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A348D61D07231500A45223 /* Main.storyboard */; };
+		13A348DD1D07243100A45223 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348DB1D07243100A45223 /* APIManager.swift */; };
+		13A348E21D072A0D00A45223 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348E11D072A0D00A45223 /* BaseRouter.swift */; };
+		13A348EC1D07451A00A45223 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A348EB1D07451A00A45223 /* Utils.swift */; };
+		13F377041D09C2270018126D /* SessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F377031D09C2270018126D /* SessionRouter.swift */; };
+		13F377071D09CADA0018126D /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F377061D09CADA0018126D /* ErrorManager.swift */; };
+		13F377091D09D84A0018126D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F377081D09D84A0018126D /* LoginViewController.swift */; };
+		13F3770B1D09FE510018126D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F3770A1D09FE510018126D /* RegisterViewController.swift */; };
+		6A468DB54DB1FEBE0A33BCC8 /* Pods_JitenshaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4112536DAD96718754529D22 /* Pods_JitenshaTests.framework */; };
+		B3FC39105E1367A2D4B60279 /* Pods_Jitensha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76E875F589196792107EEE7 /* Pods_Jitensha.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1373E2A71D0AA1A900804B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A348891D0719D500A45223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A348901D0719D500A45223;
+			remoteInfo = Jitensha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD240C589B229F77976F21F /* Pods-Jitensha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jitensha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha.release.xcconfig"; sourceTree = "<group>"; };
+		133440EC1D0AB1AF00344C7A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/Jitensha-bzlsuffwmrbnlybdqqvyjzjcugpi/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		1373E2981D0A88F800804B2B /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentViewController.swift; path = Classes/Controllers/PaymentViewController.swift; sourceTree = "<group>"; };
+		1373E29A1D0A8C0B00804B2B /* PaymentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentRouter.swift; path = API/PaymentRouter.swift; sourceTree = "<group>"; };
+		1373E2A21D0AA1A900804B2B /* JitenshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JitenshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1373E2A41D0AA1A900804B2B /* JitenshaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JitenshaTests.swift; sourceTree = "<group>"; };
+		1373E2A61D0AA1A900804B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1373E2BB1D0AA82300804B2B /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Classes/Models/Session.swift; sourceTree = "<group>"; };
+		1373E2BC1D0AA82300804B2B /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = Classes/Models/Place.swift; sourceTree = "<group>"; };
+		13A348911D0719D500A45223 /* Jitensha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jitensha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A348941D0719D500A45223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A348CE1D07229A00A45223 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Classes/Controllers/MapViewController.swift; sourceTree = "<group>"; };
+		13A348D01D0722EC00A45223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Support/Assets.xcassets; sourceTree = "<group>"; };
+		13A348D11D0722EC00A45223 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Support/Info.plist; sourceTree = "<group>"; };
+		13A348D51D07231500A45223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Classes/Views/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A348D71D07231500A45223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Classes/Views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A348DB1D07243100A45223 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		13A348E11D072A0D00A45223 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseRouter.swift; path = API/BaseRouter.swift; sourceTree = "<group>"; };
+		13A348E41D07400500A45223 /* PlaceRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceRouter.swift; path = API/PlaceRouter.swift; sourceTree = "<group>"; };
+		13A348EB1D07451A00A45223 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		13F377031D09C2270018126D /* SessionRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionRouter.swift; path = API/SessionRouter.swift; sourceTree = "<group>"; };
+		13F377061D09CADA0018126D /* ErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorManager.swift; path = Error/ErrorManager.swift; sourceTree = "<group>"; };
+		13F377081D09D84A0018126D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/Controllers/LoginViewController.swift; sourceTree = "<group>"; };
+		13F3770A1D09FE510018126D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Classes/Controllers/RegisterViewController.swift; sourceTree = "<group>"; };
+		4112536DAD96718754529D22 /* Pods_JitenshaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JitenshaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483F7AFFF31849D8973E9BE7 /* Pods-JitenshaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C7731B6BB025BEFCC60A3A9 /* Pods-Jitensha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jitensha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha.release.xcconfig"; sourceTree = "<group>"; };
+		6DDA652F31719A8B9649C361 /* Pods-Jitensha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jitensha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD4949D1C98C9354B9A36AB /* Pods_Jitensha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jitensha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		808BCE86B1F3B1FC14707C58 /* Pods_JitenshaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JitenshaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8982E0D0280425BB4D6E6288 /* Pods-JitenshaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C439995487E6BC30FE37310D /* Pods-JitenshaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E76E875F589196792107EEE7 /* Pods_Jitensha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jitensha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35A15AE6A8D9BDD49C77D17 /* Pods-JitenshaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JitenshaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B5903E04055ABF40DA8785 /* Pods-Jitensha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jitensha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1373E29F1D0AA1A900804B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A468DB54DB1FEBE0A33BCC8 /* Pods_JitenshaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A3488E1D0719D500A45223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC39105E1367A2D4B60279 /* Pods_Jitensha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135D1C9A1D0AB2F300B6A82E /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F7B5903E04055ABF40DA8785 /* Pods-Jitensha.debug.xcconfig */,
+				6C7731B6BB025BEFCC60A3A9 /* Pods-Jitensha.release.xcconfig */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		1373E2A31D0AA1A900804B2B /* JitenshaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1373E2A41D0AA1A900804B2B /* JitenshaTests.swift */,
+				1373E2A61D0AA1A900804B2B /* Info.plist */,
+			);
+			path = JitenshaTests;
+			sourceTree = "<group>";
+		};
+		13A348881D0719D500A45223 = {
+			isa = PBXGroup;
+			children = (
+				13A348931D0719D500A45223 /* Jitensha */,
+				1373E2A31D0AA1A900804B2B /* JitenshaTests */,
+				13A348921D0719D500A45223 /* Products */,
+				545D0B4EB38FC9B7392B8944 /* Pods */,
+				2223392F7FEB9A777715317D /* Frameworks */,
+				135D1C9A1D0AB2F300B6A82E /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		13A348921D0719D500A45223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A348911D0719D500A45223 /* Jitensha.app */,
+				1373E2A21D0AA1A900804B2B /* JitenshaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A348931D0719D500A45223 /* Jitensha */ = {
+			isa = PBXGroup;
+			children = (
+				13A348941D0719D500A45223 /* AppDelegate.swift */,
+				13A348EA1D07451A00A45223 /* Extensions */,
+				13A348DA1D07243100A45223 /* Managers */,
+				13A348C91D071A1A00A45223 /* Models */,
+				13A348C81D071A0D00A45223 /* Controllers */,
+				13A348C51D0719E500A45223 /* Views */,
+				13A348C61D0719F400A45223 /* Support */,
+			);
+			path = Jitensha;
+			sourceTree = "<group>";
+		};
+		13A348C51D0719E500A45223 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13A348CA1D071A2A00A45223 /* Storyboards */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		13A348C61D0719F400A45223 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				13A348D01D0722EC00A45223 /* Assets.xcassets */,
+				13A348D11D0722EC00A45223 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		13A348C81D071A0D00A45223 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13F377081D09D84A0018126D /* LoginViewController.swift */,
+				13F3770A1D09FE510018126D /* RegisterViewController.swift */,
+				13A348CE1D07229A00A45223 /* MapViewController.swift */,
+				1373E2981D0A88F800804B2B /* PaymentViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		13A348C91D071A1A00A45223 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1373E2BB1D0AA82300804B2B /* Session.swift */,
+				1373E2BC1D0AA82300804B2B /* Place.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		13A348CA1D071A2A00A45223 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13A348D41D07231500A45223 /* LaunchScreen.storyboard */,
+				13A348D61D07231500A45223 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		13A348DA1D07243100A45223 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				13F377051D09CABD0018126D /* Error */,
+				13A348DF1D0729D500A45223 /* Network */,
+			);
+			name = Managers;
+			path = Classes/Managers;
+			sourceTree = "<group>";
+		};
+		13A348DF1D0729D500A45223 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				13A348DB1D07243100A45223 /* APIManager.swift */,
+				13A348E11D072A0D00A45223 /* BaseRouter.swift */,
+				13F377031D09C2270018126D /* SessionRouter.swift */,
+				13A348E41D07400500A45223 /* PlaceRouter.swift */,
+				1373E29A1D0A8C0B00804B2B /* PaymentRouter.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		13A348EA1D07451A00A45223 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				13A348EB1D07451A00A45223 /* Utils.swift */,
+			);
+			name = Extensions;
+			path = Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		13F377051D09CABD0018126D /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				13F377061D09CADA0018126D /* ErrorManager.swift */,
+			);
+			name = Error;
+			sourceTree = "<group>";
+		};
+		2223392F7FEB9A777715317D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133440EC1D0AB1AF00344C7A /* Alamofire.framework */,
+				E76E875F589196792107EEE7 /* Pods_Jitensha.framework */,
+				4112536DAD96718754529D22 /* Pods_JitenshaTests.framework */,
+				7BD4949D1C98C9354B9A36AB /* Pods_Jitensha.framework */,
+				808BCE86B1F3B1FC14707C58 /* Pods_JitenshaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		545D0B4EB38FC9B7392B8944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F35A15AE6A8D9BDD49C77D17 /* Pods-JitenshaTests.debug.xcconfig */,
+				C439995487E6BC30FE37310D /* Pods-JitenshaTests.release.xcconfig */,
+				8982E0D0280425BB4D6E6288 /* Pods-JitenshaTests.debug.xcconfig */,
+				483F7AFFF31849D8973E9BE7 /* Pods-JitenshaTests.release.xcconfig */,
+				6DDA652F31719A8B9649C361 /* Pods-Jitensha.debug.xcconfig */,
+				0CD240C589B229F77976F21F /* Pods-Jitensha.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1373E2A11D0AA1A900804B2B /* JitenshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1373E2A91D0AA1A900804B2B /* Build configuration list for PBXNativeTarget "JitenshaTests" */;
+			buildPhases = (
+				FFE56BB4A35C356FF753AD49 /* [CP] Check Pods Manifest.lock */,
+				1373E29E1D0AA1A900804B2B /* Sources */,
+				1373E29F1D0AA1A900804B2B /* Frameworks */,
+				1373E2A01D0AA1A900804B2B /* Resources */,
+				B2522D9A38C01C3F70AC1D8D /* [CP] Embed Pods Frameworks */,
+				5AA66DD651BA5DEA699FFE43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1373E2A81D0AA1A900804B2B /* PBXTargetDependency */,
+			);
+			name = JitenshaTests;
+			productName = JitenshaTests;
+			productReference = 1373E2A21D0AA1A900804B2B /* JitenshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13A348901D0719D500A45223 /* Jitensha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A348BC1D0719D500A45223 /* Build configuration list for PBXNativeTarget "Jitensha" */;
+			buildPhases = (
+				679705A76628026874FF5A24 /* [CP] Check Pods Manifest.lock */,
+				13A3488D1D0719D500A45223 /* Sources */,
+				13A3488E1D0719D500A45223 /* Frameworks */,
+				13A3488F1D0719D500A45223 /* Resources */,
+				35FF788E520D8704EB29A9FE /* [CP] Embed Pods Frameworks */,
+				43C5F58019BDCD76DF12DBB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jitensha;
+			productName = Jitensha;
+			productReference = 13A348911D0719D500A45223 /* Jitensha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A348891D0719D500A45223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carlos Alcala";
+				TargetAttributes = {
+					1373E2A11D0AA1A900804B2B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 13A348901D0719D500A45223;
+					};
+					13A348901D0719D500A45223 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 13A3488C1D0719D500A45223 /* Build configuration list for PBXProject "Jitensha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A348881D0719D500A45223;
+			productRefGroup = 13A348921D0719D500A45223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A348901D0719D500A45223 /* Jitensha */,
+				1373E2A11D0AA1A900804B2B /* JitenshaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1373E2A01D0AA1A900804B2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A3488F1D0719D500A45223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A348D81D07231500A45223 /* LaunchScreen.storyboard in Resources */,
+				13A348D21D0722EC00A45223 /* Assets.xcassets in Resources */,
+				13A348D91D07231500A45223 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35FF788E520D8704EB29A9FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C5F58019BDCD76DF12DBB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jitensha/Pods-Jitensha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AA66DD651BA5DEA699FFE43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679705A76628026874FF5A24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2522D9A38C01C3F70AC1D8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JitenshaTests/Pods-JitenshaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE56BB4A35C356FF753AD49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1373E29E1D0AA1A900804B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1373E2B31D0AA26E00804B2B /* ErrorManager.swift in Sources */,
+				137B2D5E1D0AAA7F0086725D /* BaseRouter.swift in Sources */,
+				1373E2A51D0AA1A900804B2B /* JitenshaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A3488D1D0719D500A45223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A348DD1D07243100A45223 /* APIManager.swift in Sources */,
+				1373E29B1D0A8C0B00804B2B /* PaymentRouter.swift in Sources */,
+				1373E2991D0A88F800804B2B /* PaymentViewController.swift in Sources */,
+				13A348E21D072A0D00A45223 /* BaseRouter.swift in Sources */,
+				1373E2971D0A7FA500804B2B /* PlaceRouter.swift in Sources */,
+				1373E2BF1D0AA82300804B2B /* Place.swift in Sources */,
+				13F3770B1D09FE510018126D /* RegisterViewController.swift in Sources */,
+				13A348951D0719D500A45223 /* AppDelegate.swift in Sources */,
+				1373E2BD1D0AA82300804B2B /* Session.swift in Sources */,
+				13F377071D09CADA0018126D /* ErrorManager.swift in Sources */,
+				13A348CF1D07229A00A45223 /* MapViewController.swift in Sources */,
+				13A348EC1D07451A00A45223 /* Utils.swift in Sources */,
+				13F377041D09C2270018126D /* SessionRouter.swift in Sources */,
+				13F377091D09D84A0018126D /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1373E2A81D0AA1A900804B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A348901D0719D500A45223 /* Jitensha */;
+			targetProxy = 1373E2A71D0AA1A900804B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13A348D41D07231500A45223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A348D51D07231500A45223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		13A348D61D07231500A45223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A348D71D07231500A45223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1373E2AA1D0AA1A900804B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35A15AE6A8D9BDD49C77D17 /* Pods-JitenshaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JitenshaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurrentap.JitenshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitensha.app/Jitensha";
+			};
+			name = Debug;
+		};
+		1373E2AB1D0AA1A900804B2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C439995487E6BC30FE37310D /* Pods-JitenshaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JitenshaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurrentap.JitenshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jitensha.app/Jitensha";
+			};
+			name = Release;
+		};
+		13A348BA1D0719D500A45223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A348BB1D0719D500A45223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A348BD1D0719D500A45223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B5903E04055ABF40DA8785 /* Pods-Jitensha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jitensha/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurrentap.Jitensha;
+				PRODUCT_NAME = Jitensha;
+			};
+			name = Debug;
+		};
+		13A348BE1D0719D500A45223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7731B6BB025BEFCC60A3A9 /* Pods-Jitensha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jitensha/Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurrentap.Jitensha;
+				PRODUCT_NAME = Jitensha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1373E2A91D0AA1A900804B2B /* Build configuration list for PBXNativeTarget "JitenshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1373E2AA1D0AA1A900804B2B /* Debug */,
+				1373E2AB1D0AA1A900804B2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A3488C1D0719D500A45223 /* Build configuration list for PBXProject "Jitensha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A348BA1D0719D500A45223 /* Debug */,
+				13A348BB1D0719D500A45223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A348BC1D0719D500A45223 /* Build configuration list for PBXNativeTarget "Jitensha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A348BD1D0719D500A45223 /* Debug */,
+				13A348BE1D0719D500A45223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A348891D0719D500A45223 /* Project object */;
+}

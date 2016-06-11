@@ -1,6 +1,0 @@
-framework module Pods_CrossoverTestTests {
-  umbrella header "Pods-CrossoverTestTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
